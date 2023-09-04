@@ -1,10 +1,26 @@
-# File Metadata Microservice
+### Project Description - File Metadata Microservice
 
-Build a full stack JavaScript app that is functionally similar to this: https://file-metadata-microservice.freecodecamp.rocks.
+It is a microservice which provides the following metadata details for a uploaded file
 
---Tests
+```
+{
+"name":"filename.pdf",
+"type":"application/pdf",
+"size":14785
+}
 
--- You should provide your own project, not the example URL.
--- You can submit a form that includes a file upload.
--- The form file input field has the name attribute set to upfile.
--- When you submit a file, you receive the file name, type, and size in bytes within the JSON response.
+```
+
+### Project Live Link - https://file-metadata-microservice.vishal-gits.repl.co/
+
+### This is a certification project of "FCC Back End Development and APIs"
+
+on "Free Code Camp" https://www.freecodecamp.org/
+
+The Requirements of the project are stated in the below link
+
+https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/file-metadata-microservice
+
+### A full stack Javascript app built using NodeJS,Express and MongoDB and Mongoose for database.
+
+Additionally used Multer npm package for multipart/form-data - https://www.npmjs.com/package/multer
